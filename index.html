@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Assets/Spotify Icon/favicon.png">
+    <meta name="description" content="as">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="bibi">
+            <div class="momo">
+                <svg role="img" viewBox="0 0 24 24" aria-label="Spotify" aria-hidden="false" height="32"
+                    data-encore-id="logoSpotify" class="Svg-sc-6c3c1v-0 dDJltW">
+                    <title>Spotify</title>
+                    <path
+                        d="M13.427.01C6.805-.253 1.224 4.902.961 11.524.698 18.147 5.853 23.728 12.476 23.99c6.622.263 12.203-4.892 12.466-11.514S20.049.272 13.427.01m5.066 17.579a.717.717 0 0 1-.977.268 14.4 14.4 0 0 0-5.138-1.747 14.4 14.4 0 0 0-5.42.263.717.717 0 0 1-.338-1.392c1.95-.474 3.955-.571 5.958-.29 2.003.282 3.903.928 5.647 1.92a.717.717 0 0 1 .268.978m1.577-3.15a.93.93 0 0 1-1.262.376 17.7 17.7 0 0 0-5.972-1.96 17.7 17.7 0 0 0-6.281.238.93.93 0 0 1-1.11-.71.93.93 0 0 1 .71-1.11 19.5 19.5 0 0 1 6.94-.262 19.5 19.5 0 0 1 6.599 2.165c.452.245.62.81.376 1.263m1.748-3.551a1.147 1.147 0 0 1-1.546.488 21.4 21.4 0 0 0-6.918-2.208 21.4 21.4 0 0 0-7.259.215 1.146 1.146 0 0 1-.456-2.246 23.7 23.7 0 0 1 8.034-.24 23.7 23.7 0 0 1 7.657 2.445c.561.292.78.984.488 1.546m13.612-.036-.832-.247c-1.67-.495-2.14-.681-2.14-1.353 0-.637.708-1.327 2.264-1.327 1.539 0 2.839.752 3.51 1.31.116.096.24.052.24-.098V6.935c0-.097-.027-.15-.098-.203-.83-.62-2.272-1.07-3.723-1.07-2.953 0-4.722 1.68-4.722 3.59 0 2.157 1.371 2.91 3.626 3.546l.973.274c1.689.478 1.998.902 1.998 1.556 0 1.097-.831 1.433-2.07 1.433-1.556 0-3.457-.911-4.35-2.025-.08-.098-.177-.053-.177.062v2.423c0 .097.01.141.08.22.743.814 2.52 1.53 4.59 1.53 2.546 0 4.456-1.485 4.456-3.784 0-1.787-1.052-2.865-3.625-3.635m10.107-1.76c-1.68 0-2.653 1.026-3.219 2.052V9.376c0-.08-.044-.124-.124-.124h-2.22c-.079 0-.123.044-.123.124V20.72c0 .08.044.124.124.124h2.22c.079 0 .123-.044.123-.124v-4.536c.566 1.025 1.521 2.034 3.237 2.034 2.264 0 3.89-1.955 3.89-4.581s-1.644-4.545-3.908-4.545m-.654 6.986c-1.185 0-2.211-1.167-2.618-2.458.407-1.362 1.344-2.405 2.618-2.405 1.211 0 2.051.92 2.051 2.423s-.84 2.44-2.051 2.44m40.633-6.826h-2.264c-.08 0-.115.017-.15.097l-2.282 5.483-2.29-5.483c-.035-.08-.07-.097-.15-.097h-3.661v-.584c0-.955.645-1.397 1.476-1.397.496 0 1.035.256 1.415.486.089.053.15-.008.115-.088l-.796-1.901a.26.26 0 0 0-.124-.133c-.389-.203-1.025-.38-1.644-.38-1.875 0-2.954 1.432-2.954 3.254v.743h-1.503c-.08 0-.124.044-.124.124v1.768c0 .08.044.124.124.124h1.503v6.668c0 .08.044.123.124.123h2.264c.08 0 .124-.044.124-.123v-6.668h1.936l2.812 6.11-1.512 3.325c-.044.098.009.142.097.142h2.414c.08 0 .116-.018.15-.097l4.997-11.355c.035-.08-.009-.141-.097-.141M54.964 9.04c-2.865 0-4.837 2.025-4.837 4.616 0 2.573 1.971 4.616 4.837 4.616 2.856 0 4.846-2.043 4.846-4.616 0-2.591-1.99-4.616-4.846-4.616m.008 7.065c-1.37 0-2.343-1.043-2.343-2.45 0-1.405.973-2.449 2.343-2.449 1.362 0 2.335 1.043 2.335 2.45 0 1.406-.973 2.45-2.335 2.45m33.541-6.334a1.24 1.24 0 0 0-.483-.471 1.4 1.4 0 0 0-.693-.17q-.384 0-.693.17a1.24 1.24 0 0 0-.484.471q-.174.302-.174.681 0 .375.174.677.175.3.484.471t.693.17.693-.17.483-.471.175-.676q0-.38-.175-.682m-.211 1.247a1 1 0 0 1-.394.39 1.15 1.15 0 0 1-.571.14 1.16 1.16 0 0 1-.576-.14 1 1 0 0 1-.391-.39 1.14 1.14 0 0 1-.14-.566q0-.316.14-.562t.391-.388.576-.14q.32 0 .57.14.253.141.395.39t.142.565q0 .312-.142.56m-19.835-5.78c-.85 0-1.468.6-1.468 1.396s.619 1.397 1.468 1.397c.866 0 1.485-.6 1.485-1.397 0-.796-.619-1.397-1.485-1.397m19.329 5.19a.31.31 0 0 0 .134-.262q0-.168-.132-.266-.132-.099-.381-.099h-.588v1.229h.284v-.489h.154l.374.489h.35l-.41-.518a.5.5 0 0 0 .215-.084m-.424-.109h-.26v-.3h.27q.12 0 .184.036a.12.12 0 0 1 .065.116.12.12 0 0 1-.067.111.4.4 0 0 1-.192.037M69.607 9.252h-2.263c-.08 0-.124.044-.124.124v8.56c0 .08.044.123.124.123h2.263c.08 0 .124-.044.124-.123v-8.56c0-.08-.044-.124-.124-.124m-3.333 6.605a2.1 2.1 0 0 1-1.053.257c-.725 0-1.185-.425-1.185-1.362v-3.484h2.211c.08 0 .124-.044.124-.124V9.376c0-.08-.044-.124-.124-.124h-2.21V6.944c0-.097-.063-.15-.15-.08l-3.954 3.113c-.053.044-.07.088-.07.16v1.007c0 .08.044.124.123.124h1.539v3.855c0 2.087 1.203 3.06 2.918 3.06.743 0 1.46-.194 1.884-.442.062-.035.07-.07.07-.133v-1.68c0-.088-.044-.115-.123-.07"
+                        transform="translate(-0.95,0)"></path>
+                </svg>
+            </div>
+
+            <div class="home-svg">
+                <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                    class="Svg-sc-ytk21e-0 bneLcE">
+                    <title>Home</title>
+                    <path
+                        d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z">
+                    </path>
+                </svg>
+            </div>
+
+            <div class="hashirama">
+                <div class="itadori">
+                    <div class="search-svg">
+                        <svg data-encore-id="icon" role="img" aria-hidden="true" data-testid="search-icon"
+                            class="Svg-sc-ytk21e-0 bHdpig M9l40ptEBXPm03dU3X1k" viewBox="0 0 24 24">
+                            <title>Search</title>
+                            <path
+                                d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="itadori-search">
+                        <input type="search" name="Search" id="search" placeholder="What Do you want To play?">
+                    </div>
+                    <div class="bashira">
+                        <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                            class="Svg-sc-ytk21e-0 bneLcE">
+                            <title>Browse</title>
+                            <path
+                                d="M4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4H4V2zM1.513 9.37A1 1 0 0 1 2.291 9H21.71a1 1 0 0 1 .978 1.208l-2.17 10.208A2 2 0 0 1 18.562 22H5.438a2 2 0 0 1-1.956-1.584l-2.17-10.208a1 1 0 0 1 .201-.837zM12 17.834c1.933 0 3.5-1.044 3.5-2.333 0-1.289-1.567-2.333-3.5-2.333S8.5 14.21 8.5 15.5c0 1.289 1.567 2.333 3.5 2.333z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="gojo"><button>Sign up</button></div>
+            <div class="nanami"> <button>Log in</button></div>
+        </nav>
+    </header>
+    <main>
+        <section class="sec1">
+            <nav class="mahaish">
+                <div class="daya">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="jonny">
+                        <path
+                            d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                        </path>
+                    </svg>
+                    <h1>Your Library</h1>
+                </div>
+                <div class="machher">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" class="cid">
+                        <path
+                            d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z">
+                        </path>
+                    </svg>
+                </div>
+            </nav>
+            <div class="yes">
+                <div class="depak">
+                    <h1>Create your first playlist</h1>
+                    <h3>It's easy, we'll help you </h3>
+                    <button>Create playlist</button>
+                </div>
+
+                <div class="depak rost">
+                    <h1>Let's find some podcast to follow</h1>
+                    <h3>We'll keep you updated on new episodes</h3>
+                    <button>Browse podcast</button>
+                </div>
+
+            </div>
+            <div class="gta">
+                <ul>
+                    <li>Legal</li>
+                    <li>Safety & Privacy Center</li>
+                    <li>Privacy Policy</li>
+                </ul>
+                <ul>
+                    <li>Cookies </li>
+                    <li>AboutAds</li>
+                    <li>Accessibility</li>
+                </ul>
+                <h2>Cookies</h2>
+                <button class="minato">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bneLcE hah" viewBox="0 0 512 512">
+                        <path
+                            d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z" />
+                    </svg>
+                    English</button>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="orochimaro">
+                <div class="obito">
+                    <h1>Pouplar artists</h1>
+                    <h1>show all</h1>
+                </div>
+                <div class="ninja">
+                    <div class="maheen">
+                        <img src="./Assets/Pics/Pirtam.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>Pritam</h1>
+                                <p>Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen">
+                        <img src="./Assets/Pics/Pirtam.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>Pritam</h1>
+                                <p>Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen">
+                        <img src="./Assets/Pics/Pirtam.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>Pritam</h1>
+                                <p>Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen">
+                        <img src="./Assets/Pics/Pirtam.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>Pritam</h1>
+                                <p>Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen">
+                        <img src="./Assets/Pics/Pirtam.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>Pritam</h1>
+                                <p>Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen">
+                        <img src="./Assets/Pics/Pirtam.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>Pritam</h1>
+                                <p>Artists</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="orochimaro">
+                <div class="obito">
+                    <h1>Popular albums and singles</h1>
+                    <h1>show all</h1>
+                </div>
+                <div class="ninja">
+                    <div class="maheen africa">
+                        <img src="./Assets/Pics/ny.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>My Terrible Mind</h1>
+                                <p>Talha Anjum, Umair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa">
+                        <img src="./Assets/Pics/ny.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>My Terrible Mind</h1>
+                                <p>Talha Anjum, Umair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa">
+                        <img src="./Assets/Pics/ny.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>My Terrible Mind</h1>
+                                <p>Talha Anjum, Umair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa">
+                        <img src="./Assets/Pics/ny.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>My Terrible Mind</h1>
+                                <p>Talha Anjum, Umair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa">
+                        <img src="./Assets/Pics/ny.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>My Terrible Mind</h1>
+                                <p>Talha Anjum, Umair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa">
+                        <img src="./Assets/Pics/ny.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <h1>My Terrible Mind</h1>
+                                <p>Talha Anjum, Umair</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="orochimaro">
+                <div class="obito">
+                    <h1>Popular radio</h1>
+                    <h1>show all</h1>
+                </div>
+                <div class="ninja">
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ge.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>With Sachin-Jigar, Atif Aslam, Amit Trivedi and more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ge.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>With Sachin-Jigar, Atif Aslam, Amit Trivedi and more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ge.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>With Sachin-Jigar, Atif Aslam, Amit Trivedi and more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ge.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>With Sachin-Jigar, Atif Aslam, Amit Trivedi and more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ge.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>With Sachin-Jigar, Atif Aslam, Amit Trivedi and more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ge.png" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>With Sachin-Jigar, Atif Aslam, Amit Trivedi and more</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="orochimaro">
+                <div class="obito">
+                    <h1>featured charts</h1>
+                    <h1>show all</h1>
+                </div>
+                <div class="ninja">
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ga.jpg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ga.jpg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ga.jpg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ga.jpg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ga.jpg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/ga.jpg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Your weekly update of the most played tracks right now - Global.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="orochimaro">
+                <div class="obito">
+                    <h1>2024 wrapped</h1>
+                    <h1>show all</h1>
+                </div>
+                <div class="ninja">
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/gf.jpeg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Our editors' picks for best dance songs of the year! Cover: John Summit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/gf.jpeg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Our editors' picks for best dance songs of the year! Cover: John Summit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/gf.jpeg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Our editors' picks for best dance songs of the year! Cover: John Summit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/gf.jpeg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Our editors' picks for best dance songs of the year! Cover: John Summit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/gf.jpeg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Our editors' picks for best dance songs of the year! Cover: John Summit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maheen africa faro">
+                        <img src="./Assets/Pics/gf.jpeg" alt="not Found" height="218" width="218">
+                        <div class="saitama">
+                            <div class="ohaio">
+                                <p>Our editors' picks for best dance songs of the year! Cover: John Summit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-gray-900 text-white py-8">
+                <div
+                    class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                    <div>
+                        <h3 class="text-lg font-medium mb-4">Company</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-gray-400">About</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Jobs</a></li>
+                            <li><a href="#" class="hover:text-gray-400">For the Record</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-medium mb-4">Communities</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-gray-400">For Artists</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Developers</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Advertising</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Investors</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Vendors</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-medium mb-4">Useful links</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-gray-400">Support</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-medium mb-4">Spotify Plans</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-gray-400">Premium Individual</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Premium Duo</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Premium Family</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Premium Student</a></li>
+                            <li><a href="#" class="hover:text-gray-400">Spotify Free</a></li>
+                        </ul>
+                    </div>
+                    <div class="mango">
+                        <div class="one">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" class="a">
+                                <path
+                                    d="M8 1.44c2.136 0 2.389.009 3.233.047.78.036 1.203.166 1.485.276.348.128.663.332.921.598.266.258.47.573.599.921.11.282.24.706.275 1.485.039.844.047 1.097.047 3.233s-.008 2.389-.047 3.232c-.035.78-.166 1.204-.275 1.486a2.654 2.654 0 0 1-1.518 1.518c-.282.11-.706.24-1.486.275-.843.039-1.097.047-3.233.047s-2.39-.008-3.232-.047c-.78-.035-1.204-.165-1.486-.275a2.477 2.477 0 0 1-.921-.599 2.477 2.477 0 0 1-.599-.92c-.11-.282-.24-.706-.275-1.486-.038-.844-.047-1.096-.047-3.232s.009-2.39.047-3.233c.036-.78.166-1.203.275-1.485.129-.348.333-.663.599-.921a2.49 2.49 0 0 1 .92-.599c.283-.11.707-.24 1.487-.275.843-.038 1.096-.047 3.232-.047L8 1.441zm.001-1.442c-2.172 0-2.445.01-3.298.048-.854.04-1.435.176-1.943.373a3.928 3.928 0 0 0-1.417.923c-.407.4-.722.883-.923 1.417-.198.508-.333 1.09-.372 1.942C.01 5.552 0 5.826 0 8c0 2.172.01 2.445.048 3.298.04.853.174 1.433.372 1.941.2.534.516 1.017.923 1.417.4.407.883.722 1.417.923.508.198 1.09.333 1.942.372.852.039 1.126.048 3.299.048 2.172 0 2.445-.01 3.298-.048.853-.04 1.433-.174 1.94-.372a4.087 4.087 0 0 0 2.34-2.34c.199-.508.334-1.09.373-1.942.039-.851.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.04-.853-.174-1.433-.372-1.94a3.924 3.924 0 0 0-.923-1.418A3.928 3.928 0 0 0 13.24.42c-.508-.197-1.09-.333-1.942-.371-.851-.041-1.125-.05-3.298-.05l.001-.001z">
+                                </path>
+                                <path
+                                    d="M8 3.892a4.108 4.108 0 1 0 0 8.216 4.108 4.108 0 0 0 0-8.216zm0 6.775a2.668 2.668 0 1 1 0-5.335 2.668 2.668 0 0 1 0 5.335zm4.27-5.978a.96.96 0 1 0 0-1.92.96.96 0 0 0 0 1.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="one piece">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16"
+                                class="Svg-sc-ytk21e-0 dCAvla">
+                                <path
+                                    d="M13.54 3.889a2.968 2.968 0 0 0 1.333-1.683 5.937 5.937 0 0 1-1.929.738 2.992 2.992 0 0 0-.996-.706 2.98 2.98 0 0 0-1.218-.254 2.92 2.92 0 0 0-2.143.889 2.929 2.929 0 0 0-.889 2.15c0 .212.027.442.08.691a8.475 8.475 0 0 1-3.484-.932A8.536 8.536 0 0 1 1.532 2.54a2.993 2.993 0 0 0-.413 1.523c0 .519.12 1 .361 1.445.24.445.57.805.988 1.08a2.873 2.873 0 0 1-1.373-.374v.04c0 .725.23 1.365.69 1.92a2.97 2.97 0 0 0 1.739 1.048 2.937 2.937 0 0 1-1.365.056 2.94 2.94 0 0 0 1.063 1.5 2.945 2.945 0 0 0 1.77.603 5.944 5.944 0 0 1-3.77 1.302c-.243 0-.484-.016-.722-.048A8.414 8.414 0 0 0 5.15 14c.905 0 1.763-.12 2.572-.361.81-.24 1.526-.57 2.147-.988a9.044 9.044 0 0 0 1.683-1.46c.5-.556.911-1.155 1.234-1.798a9.532 9.532 0 0 0 .738-1.988 8.417 8.417 0 0 0 .246-2.429 6.177 6.177 0 0 0 1.508-1.563c-.56.249-1.14.407-1.738.476z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="one voidcentury">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16"
+                                class="Svg-sc-ytk21e-0 dYnaPI">
+                                <path
+                                    d="M16 8a8 8 0 1 0-9.25 7.903v-5.59H4.719V8H6.75V6.237c0-2.005 1.194-3.112 3.022-3.112.875 0 1.79.156 1.79.156V5.25h-1.008c-.994 0-1.304.617-1.304 1.25V8h2.219l-.355 2.313H9.25v5.59A8.002 8.002 0 0 0 16 8z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="mt-8 text-center text-sm">
+                    <p>&copy; 2024 Spotify AB</p>
+                </div>
+            </footer>
+        </section>
+    </main>
+    <div class="umi">
+        <div class="prita">
+            <h2>Preview of Spotify</h2>
+            <p>Sign up to get unlimited songs and podcast with occasionl ads. No credit card needed.
+            </p>
+        </div>
+        <div class="nigga">
+            <button>Sign up free</button>
+        </div>
+    </div>
+</body>
+
+</html>

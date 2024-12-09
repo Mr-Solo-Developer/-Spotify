@@ -1,0 +1,735 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+}
+
+body {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.bibi {
+    display: flex;
+    height: 48px;
+    width: 99.1%;
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.dDJltW {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    fill: #fff;
+    stroke: transparent;
+    cursor: pointer;
+
+}
+
+.bHdpig {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    fill: #fff;
+    width: 27px;
+    cursor: pointer;
+    height: 27px;
+    position: relative;
+    z-index: 10;
+}
+
+.bneLcE {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    fill: transparent;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    stroke: white;
+    stroke-width: 2px;
+
+}
+
+.itadori input {
+    background-color: transparent;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    height: 48px;
+    width: 476px;
+    font-size: 16px;
+    outline: none;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+    padding: 0px 54px 0px 53px;
+    margin: 0px 0px;
+    border-radius: 100px;
+    top: 0px;
+    right: 0vw;
+}
+
+.bashira {
+    position: relative;
+    z-index: 100;
+    border-left: 1px solid white;
+    height: 24px;
+    top: 0px;
+    padding: 0px 0px 0px 12px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+.itadori {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 48px;
+    background-color: #1f1f1f;
+    border-radius: 200px;
+    border: 0px;
+    box-sizing: content-box;
+    padding: 0px 9px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 737px;
+}
+
+
+.gojo button {
+    height: max-content;
+    width: max-content;
+    border: 0px;
+    background: transparent;
+    color: rgb(179, 179, 179);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 26px 14px 10px;
+    position: absolute;
+    top: 10px;
+    left: 1693px;
+    z-index: 10;
+}
+
+.gojo button:hover {
+    transform: scale(1.2) translateY(1px) translateX(3px);
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+}
+
+.gojo {
+    height: max-content;
+    width: max-content;
+}
+
+.nanami {
+    height: max-content;
+    width: max-content;
+    border: 0px;
+    border-radius: 100px;
+}
+
+.nanami button {
+    border-radius: 1990px;
+    height: max-content;
+    width: max-content;
+    border: 0px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 30px 14px 30px;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    z-index: 10;
+}
+
+.nanami button:hover {
+    transform: scale(1.03);
+}
+
+.home-svg:hover {
+    transform: scale(1.03);
+    font-weight: 400;
+}
+
+.bashira:hover {
+    transform: scale(1.03);
+    font-weight: 400;
+    fill: #fff;
+}
+
+.home-svg {
+    padding: 10px 12px;
+    border: 0px solid transparent;
+    border-radius: 100px;
+    background-color: #1f1f1f;
+    height: max-content;
+    width: max-content;
+    position: absolute;
+    top: 10px;
+    left: 676px;
+}
+
+.itadori-search>input::placeholder {
+    color: #ffffffbd;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.momo {
+    position: absolute;
+    top: 16px;
+    left: 28px;
+}
+
+.jonny {
+    fill: #b3b3b3;
+    height: 100px;
+    width: 100px;
+}
+
+.daya h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #b3b3b3;
+
+}
+
+::selection {
+    color: #1f1f1f;
+}
+
+.daya {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    margin: 17px 0px 0px 3px;
+
+}
+
+.daya svg {
+    height: 23px;
+    width: 23px;
+    margin: 0px -17px 0px 16px;
+}
+
+.machher svg {
+    height: 15px;
+    width: max-content;
+    padding: 7px;
+    fill: #b2b2b2;
+}
+
+.machher {
+    margin: 17px 0px 0px 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1 nav {
+    display: flex;
+    flex-direction: row;
+    gap: 7.9vw;
+}
+
+
+
+.sec1 {
+    width: 421px;
+    background-color: #121212;
+    height: 887px;
+    margin: 8px 0px 0px 15px;
+    border-radius: 10px;
+}
+
+.depak h1:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 7px 0px 0px 7px;
+}
+
+.depak h3:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding: 16px 0px 20px 7px;
+}
+
+.depak {
+    height: 112px;
+    width: 356px;
+    padding: 11px;
+    border-radius: 10px;
+    background: #1f1f1f;
+}
+
+.yes {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 17px 0px 0px 0px;
+    align-items: center;
+    height: 561px;
+    overflow: hidden auto;
+}
+
+.depak button {
+    padding: 8px 21.5px;
+    background: #fff;
+    border: 0px;
+    border-radius: 111px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px 0px 0px 11px;
+}
+
+.depak button:hover {
+    transform: scale(1.06);
+}
+
+.daya>*:hover {
+    color: #fff;
+    fill: #fff;
+}
+
+.machher:hover {
+    background-color: #242323;
+    border-radius: 100px;
+}
+
+.minato {
+    background: transparent;
+    border: 1px solid #3e3b3b;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    gap: 10px;
+    padding: 7px 9px;
+    margin: 0px 0px 0px 20px;
+}
+
+.hah {
+    width: 16px;
+    height: 16px;
+    stroke-width: 11px;
+}
+
+.minato:hover {
+    transform: scale(1.07);
+    border-color: #fff;
+
+}
+
+.gta ul {
+    display: flex;
+    color: #fff;
+    list-style-type: none;
+
+}
+
+.gta h2 {
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 0px 40px 20px;
+}
+
+.gta li {
+    font-size: 11px;
+    cursor: pointer;
+    padding: 0px 0px 10px 20px;
+}
+
+.gta h2:hover {
+    text-decoration: underline;
+}
+
+.gta {
+    padding: 30px 0px 0px 0px;
+}
+
+.sec2 {
+    background: linear-gradient(0deg, #121212 0, #ffffff38 284%);
+    height: 887px;
+    width: 1471px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 8px 0px 0px 0px;
+    overflow: hidden auto;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+:root {
+    --background-noise: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxwYXRoIGQ9Ik0wIDBoMzAwdjMwMEgweiIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIuMDUiLz48L3N2Zz4=);
+    --background-base: #121212;
+
+}
+
+.sec2 h1:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.maheen {
+    height: 272px;
+    width: 242px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.maheen img {
+    height: 212px;
+    width: 212px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: relative;
+    z-index: -10;
+    box-shadow: 0px 0px 17px -2px #000000;
+    margin: auto auto 0px auto;
+}
+
+.maheen h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.maheen p {
+    position: relative;
+    z-index: -10;
+    font-size: 14px;
+    font-weight: 500;
+    color: #b3b3b3;
+}
+
+.maheen h1:hover {
+    text-decoration: underline;
+}
+
+.obito h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.obito h1:nth-child(2) {
+    font-size: 14px;
+    font-weight: 700;
+    color: #b3b3b3;
+}
+
+.obito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0px 0px -10px 15px;
+}
+
+.saitama {
+    display: flex;
+    flex-direction: row;
+}
+
+.ohaio {
+    gap: 3.5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 6px 15px;
+
+}
+
+.maheen:hover {
+    background-color: #1f1f1f;
+
+}
+
+.orochimaro {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    margin: 18px 0px 0px 10px;
+}
+
+.ninja {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.africa img {
+    border-radius: 10px;
+    height: 218px;
+    width: 218px;
+}
+
+.africa p:hover {
+    text-decoration: underline;
+}
+
+.africa p {
+    z-index: 10;
+}
+
+.faro p:hover {
+    text-decoration: none;
+}
+
+.bg-gray-900 {
+    background-color: #171717;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.max-w-7xl {
+    max-width: 80rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.md\:grid-cols-4 {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: max-content;
+}
+
+.gap-8 {
+    gap: 0rem;
+}
+
+.text-lg {
+    font-size: 16px;
+    line-height: 1.75rem;
+}
+
+.font-medium {
+    font-weight: 700;
+}
+
+.mb-4 {
+
+    margin-bottom: 10px;
+}
+
+.space-y-2>*+* {
+    margin-top: 0.5rem;
+}
+
+.hover\:text-gray-400:hover {
+    color: #a3a3a3;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+footer a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+footer li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer svg {
+    height: 16px;
+    width: 16px;
+    fill: #fff;
+}
+
+.mango {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    padding: 10px 6px 0px 0px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    padding: 9px;
+    background-color: #ffffff26;
+    height: max-content;
+    border-radius: 50%;
+}
+
+.one:hover {
+    background-color: #ffffff57;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.hr {
+    height: 0px;
+    width: 1283px;
+    margin: 30px auto 0px;
+}
+
+.hr hr {
+    border-color: #00000078;
+}
+
+.text-sm p {
+    font-weight: 600;
+    font-size: 14px;
+    width: max-content;
+    margin: 0px 0px 0px 84px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #242323;
+    border: 3px solid transparent;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5a5858;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.umi {
+    z-index: 1000;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    width: 98%;
+    height: 46px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 7px;
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nigga button {
+    height: max-content;
+    background-color: #FFf;
+    border: 0px solid red;
+    border-radius: 100px;
+    width: max-content;
+    padding: 14px 30.5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 20px 0px 0px;
+}
+
+.nigga button:hover {
+    transform: scale(1.05);
+}
+
+.prita * {
+    color: #fff;
+
+}
+
+.prita h2 {
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.prita p {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.prita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
